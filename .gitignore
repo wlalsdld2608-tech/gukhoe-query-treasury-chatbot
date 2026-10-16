@@ -44,3 +44,6 @@ next-env.d.ts
 /.claude/
 /.bkit/
 /trash-can/
+
+.vercel
+.env*
