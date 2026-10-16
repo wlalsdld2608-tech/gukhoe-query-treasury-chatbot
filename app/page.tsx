@@ -1,5 +1,6 @@
 import Image from "next/image";
 import FontSizeControl from "@/components/FontSizeControl";
+import GuideDialog from "@/components/GuideDialog";
 import QueryForm from "@/components/QueryForm";
 
 // Design Ref: §3 화면 구성 — ① 제목, ② 입력 영역, ④ 하단 안내 (③ 결과 영역은 추천 기능 연결 후 추가)
@@ -7,7 +8,8 @@ export default function Home() {
   return (
     <div className="flex w-full flex-1 flex-col bg-background">
       <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-6 px-5 pb-16 pt-4">
-        <div className="mx-auto w-full max-w-3xl">
+        <div className="mx-auto flex w-full max-w-3xl items-center justify-between gap-3">
+          <GuideDialog />
           <FontSizeControl />
         </div>
 
