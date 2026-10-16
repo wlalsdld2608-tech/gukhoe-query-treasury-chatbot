@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+/* 토스(toss.im) 스타일: 연한 회색 바탕 위에 흰 카드, 토스 파랑, 큰 둥근 모서리, 굵은 제목 */
+:root {
+  --background: #f2f4f6;
+  --foreground: #191f28;
+  --card: #ffffff;
+  --muted: #4e5968;
+  --subtle: #6b7684;
+  --line: #e5e8eb;
+  --tint: #f9fafb;
+  --brand: #3182f6;
+  --brand-hover: #1b64da;
+  --brand-soft: #e8f3ff;
+  --brand-deep: #0b2a5b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
+  --color-subtle: var(--subtle);
+  --color-line: var(--line);
+  --color-tint: var(--tint);
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-deep: var(--brand-deep);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #17171c;
+    --foreground: #f9fafb;
+    --card: #202027;
+    --muted: #c3c6cc;
+    --subtle: #a0a9b6;
+    --line: #333340;
+    --tint: #2b2b33;
+    --brand: #4593fc;
+    --brand-hover: #6aa9ff;
+    --brand-soft: #1b2b45;
+    --brand-deep: #e8f3ff;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Toss Product Sans", Pretendard, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", system-ui, sans-serif;
+  letter-spacing: -0.01em;
+  word-break: keep-all;
+}
+
+/* 키보드로 이동할 때 지금 위치가 잘 보이게 한다 */
+:focus-visible {
+  outline: 3px solid var(--brand);
+  outline-offset: 2px;
+}
+
+/* 눌렀을 때 살짝 작아지는 토스식 반응 */
+button:not(:disabled):active {
+  transform: scale(0.98);
+}
+button {
+  transition: background-color 0.15s, transform 0.1s;
+}

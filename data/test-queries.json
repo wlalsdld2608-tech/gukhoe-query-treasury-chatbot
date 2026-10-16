@@ -1,0 +1,308 @@
+[
+  {
+    "id": "Q01",
+    "type": "single",
+    "query": "국고금 관리 제도 운영 과정에서 한국은행 계좌 잔액이 적정하게 유지되고 있는지 설명하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "국고총괄과",
+      "related": []
+    }
+  },
+  {
+    "id": "Q02",
+    "type": "single",
+    "query": "국고 여유자금 운용 수익률과 한시적 자금 조달 계획을 제출하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "국고총괄과",
+      "related": []
+    }
+  },
+  {
+    "id": "Q03",
+    "type": "single",
+    "query": "내년 국고채 발행 규모와 발행 계획의 근거를 설명하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "국채정책과",
+      "related": []
+    }
+  },
+  {
+    "id": "Q04",
+    "type": "single",
+    "query": "국채전문딜러 제도 운영 실태와 국채 유통시장 안정 대책을 보고하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "국채시장과",
+      "related": []
+    }
+  },
+  {
+    "id": "Q05",
+    "type": "single",
+    "query": "정부 출자기관의 출자 지분 관리 현황을 제출하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "출자관리과",
+      "related": []
+    }
+  },
+  {
+    "id": "Q06",
+    "type": "single",
+    "query": "국가결산 결과 중 지적사항이 반복된 항목과 개선 계획을 제출하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "회계결산과",
+      "related": []
+    }
+  },
+  {
+    "id": "Q07",
+    "type": "single",
+    "query": "활용되지 않고 방치된 유휴 국유재산의 현황과 활용 방안을 제출하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "국유재산개발과",
+      "related": []
+    }
+  },
+  {
+    "id": "Q08",
+    "type": "single",
+    "query": "국유재산 종합계획 수립 근거와 관리 실태 점검 결과를 설명하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "국유재산정책과",
+      "related": []
+    }
+  },
+  {
+    "id": "Q09",
+    "type": "single",
+    "query": "국유재산 사용 허가 조정 기준과 최근 조정 사례를 제출하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "국유재산조정과",
+      "related": []
+    }
+  },
+  {
+    "id": "Q10",
+    "type": "single",
+    "query": "수의계약 비중이 늘어난 이유와 입찰 참가 자격 심사 기준을 설명하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "계약정책과",
+      "related": []
+    }
+  },
+  {
+    "id": "Q11",
+    "type": "single",
+    "query": "계약 분쟁 조정 사례와 부정당업자 제재 심사 결과를 제출하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "계약분쟁심사과",
+      "related": []
+    }
+  },
+  {
+    "id": "Q12",
+    "type": "single",
+    "query": "공공조달 시장 관리 현황과 조달 제도 개선 계획을 설명하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "조달정책과",
+      "related": []
+    }
+  },
+  {
+    "id": "Q13",
+    "type": "multi",
+    "query": "국채 이자 상환 부담이 커지는 상황에서 국고 여유자금 운용 계획을 어떻게 조정할 것인지 설명하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "국채정책과",
+      "related": [
+        "국고총괄과"
+      ]
+    }
+  },
+  {
+    "id": "Q14",
+    "type": "multi",
+    "query": "국유재산 처분 대금이 국가결산 보고서에 어떻게 기록되는지 설명하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "국유재산조정과",
+      "related": [
+        "회계결산과"
+      ]
+    }
+  },
+  {
+    "id": "Q15",
+    "type": "multi",
+    "query": "국채 유통시장 안정 대책과 이를 고려한 국채 발행 계획을 함께 제출하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "국채시장과",
+      "related": [
+        "국채정책과"
+      ]
+    }
+  },
+  {
+    "id": "Q16",
+    "type": "multi",
+    "query": "정부 출자 지분 관리 현황과 해당 재무제표 작성 지원 실적을 제출하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "출자관리과",
+      "related": [
+        "회계결산과"
+      ]
+    }
+  },
+  {
+    "id": "Q17",
+    "type": "multi",
+    "query": "수의계약 제도 운영 현황과 이와 관련된 계약 분쟁 조정 사례를 제출하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "계약정책과",
+      "related": [
+        "계약분쟁심사과"
+      ]
+    }
+  },
+  {
+    "id": "Q18",
+    "type": "no_basis",
+    "query": "상반기 예산 집행률이 목표보다 낮은 이유와 하반기 집행 계획을 제출하시오.",
+    "expected": {
+      "status": "no_basis",
+      "primary": null,
+      "related": []
+    }
+  },
+  {
+    "id": "Q19",
+    "type": "no_basis",
+    "query": "보조금 부정수급 적발 건수와 환수 실적을 제출하시오.",
+    "expected": {
+      "status": "no_basis",
+      "primary": null,
+      "related": []
+    }
+  },
+  {
+    "id": "Q20",
+    "type": "no_basis",
+    "query": "현재 진행 중인 해외 파병 부대의 장비 현황을 제출하시오.",
+    "expected": {
+      "status": "no_basis",
+      "primary": null,
+      "related": []
+    }
+  },
+  {
+    "id": "Q21",
+    "type": "multi",
+    "query": "국고채 발행 계획과 국고 여유자금 운용 현황을 함께 제출하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "국채정책과",
+      "related": [
+        "국고총괄과"
+      ]
+    }
+  },
+  {
+    "id": "Q22",
+    "type": "multi",
+    "query": "국유재산 개발 사업 현황과 국가결산 보고서 반영 내용을 설명하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "국유재산개발과",
+      "related": [
+        "회계결산과"
+      ]
+    }
+  },
+  {
+    "id": "Q23",
+    "type": "multi",
+    "query": "정부 출자 지분 관리 현황과 국채 발행 계획을 제출하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "출자관리과",
+      "related": [
+        "국채정책과"
+      ]
+    }
+  },
+  {
+    "id": "Q24",
+    "type": "multi",
+    "query": "국채전문딜러 제도 운영 실태와 국고채 발행 계획을 설명하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "국채시장과",
+      "related": [
+        "국채정책과"
+      ]
+    }
+  },
+  {
+    "id": "Q25",
+    "type": "multi",
+    "query": "국유재산 매각 대금 수납 현황과 국고 여유자금 운용 계획을 제출하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "국유재산조정과",
+      "related": [
+        "국고총괄과"
+      ]
+    }
+  },
+  {
+    "id": "Q26",
+    "type": "multi",
+    "query": "조달 계약 제도 운영 현황과 계약 분쟁 조정 사례를 제출하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "조달정책과",
+      "related": [
+        "계약분쟁심사과"
+      ]
+    }
+  },
+  {
+    "id": "Q27",
+    "type": "multi",
+    "query": "계약 분쟁 조정 사례와 수의계약 제도 운영 현황을 제출하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "계약분쟁심사과",
+      "related": [
+        "계약정책과"
+      ]
+    }
+  },
+  {
+    "id": "Q28",
+    "type": "multi",
+    "query": "국채 이자 상환 계획과 국유재산 매각 대금 수납 현황을 제출하시오.",
+    "expected": {
+      "status": "recommended",
+      "primary": "국채정책과",
+      "related": [
+        "국유재산조정과"
+      ]
+    }
+  }
+]
