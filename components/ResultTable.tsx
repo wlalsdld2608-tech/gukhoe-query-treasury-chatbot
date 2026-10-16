@@ -67,7 +67,7 @@ export default function ResultTable({
 
   return (
     <div className="overflow-x-auto rounded-3xl bg-card shadow-sm">
-      <table className="w-full min-w-[960px] border-collapse text-sm">
+      <table className="w-full min-w-[1040px] border-collapse text-sm">
         <caption className="sr-only">질의별 추천 결과와 소관과 확정 표</caption>
         <thead>
           <tr className="border-b border-line text-left text-xs text-muted">
@@ -82,7 +82,7 @@ export default function ResultTable({
             </th>
             <th scope="col" className="w-14 px-2 py-3">번호</th>
             <th scope="col" className="w-32 px-2 py-3">의원</th>
-            <th scope="col" className="min-w-[280px] px-2 py-3">질의</th>
+            <th scope="col" className="min-w-[360px] px-2 py-3">질의</th>
             <th scope="col" className="w-48 px-2 py-3">추천 결과</th>
             <th scope="col" className="w-60 px-2 py-3">소관과 확정</th>
             <th scope="col" className="w-16 px-2 py-3">상세</th>
@@ -110,8 +110,10 @@ export default function ResultTable({
                   <td className="px-2 py-3 font-semibold">{result.number || "-"}</td>
                   <td className="px-2 py-3 text-muted">{memberText(result, members)}</td>
                   <td className="px-2 py-3">
-                    <p className={wide.has(result.index) ? "" : "line-clamp-2"}>{result.text}</p>
-                    {result.text.length > 60 && (
+                    <p className={`text-base font-semibold leading-relaxed text-foreground ${wide.has(result.index) ? "" : "line-clamp-3"}`}>
+                      {result.text}
+                    </p>
+                    {result.text.length > 90 && (
                       <button
                         type="button"
                         onClick={() => flip(setWide, result.index)}

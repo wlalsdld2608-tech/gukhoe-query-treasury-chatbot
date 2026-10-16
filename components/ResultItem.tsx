@@ -192,8 +192,8 @@ export default function ResultItem({
         />
       </div>
 
-      <p className="text-sm text-foreground">
-        <span className="mr-1 font-semibold">{result.number ? `${result.number}.` : "-"}</span>
+      <p className="rounded-2xl border-l-4 border-brand bg-brand-soft px-4 py-3 text-base font-semibold leading-relaxed text-foreground">
+        <span className="mr-2 text-brand">{result.number ? `${result.number}.` : "-"}</span>
         <QueryText result={result} />
       </p>
 
